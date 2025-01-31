@@ -1,0 +1,27 @@
+h1 {
+  color: #CD5C08;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #FFF5E4;
+}
+
+table, td, th, tr {
+  border: 1px solid black;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+table {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #FFF5E4;
+  
+}
+
+th {
+  color: #C1D8C3;
+  background-color: #6A9C89;
+}
