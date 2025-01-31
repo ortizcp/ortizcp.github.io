@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>CSS Cheat Sheet</title>
+  <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <h1>CSS Selectors and Specificity</h1>
+</body>
+<table>
+  <tr>
+    <th scope="col">Selector</th>
+    <th scope="col">Description</th>
+    <th scope="col">Example</th>
+  </tr>
+  <tr>
+    <th scope="row">Type</th>
+    <td>The type selector matches the type of the element in the HTML document</td>
+    <td>p {}, h1 {}, body {}</td>
+
+  </tr>
+  <tr>
+    <th scope="row">Universal</th>
+    <td>Selects all elements of any type</td>
+    <td>* {}</td>
+  </tr>
+  <tr>
+    <th scope="row">Class</th>
+    <td>Selects elements by their class attribute</td>
+    <td>.brand {}</td>
+  </tr>
+  <tr>
+    <th scope="row">ID</th>
+    <td> If an HTML element needs to be styled uniquely, we can give it an ID using the id attribute</td>
+    <td>#brand {}</td>
+  </tr>
+</table>
+</html>
