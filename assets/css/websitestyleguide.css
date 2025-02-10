@@ -1,0 +1,127 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.colors {
+  border: 3px solid darkgray;
+  font-family: sans-serif;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.green-box {
+  background-color: #556052;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.red-box {
+  background-color: #AF6B58;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tan-box {
+  background-color: #CBBCB1;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.white-box {
+  background-color: #F2EFEA;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.fonts {
+  border: 3px solid darkgray;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sans-pin {
+  font-family: "Alumni Sans Pinstripe";
+  text-align: center;
+  float: left;
+  margin: 10px;
+  padding-bottom: 40px;
+}
+
+.pinstripe {
+  text-decoration: underline;
+}
+
+.red-hat {
+  font-family: "Red Hat Display";
+  text-align: center;
+  float: right;
+  margin: 10px;
+  padding-bottom: 40px;
+}
+
+.hat {
+  text-decoration: underline;
+}
+
+.lex-giga {
+  font-family: "Lexend Giga";
+  text-align: center;
+  float: center;
+  padding-bottom: 40px;
+  margin: 10px;
+}
+
+.lexend {
+  text-decoration: underline;
+}
+
+.textstyles {
+  border: 3px solid darkgray;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.mainheading {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Lexend Giga";
+}
+
+.subheading {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Red Hat Display";
+}
+
+.subsub {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  font-family: "Red Hat Display";
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Alumni Sans Pinstripe";
+}
+
+.list {
+  font-family: sans-serif;
+}
