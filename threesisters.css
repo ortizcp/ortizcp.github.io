@@ -1,0 +1,291 @@
+html {
+    font-family: Raleway;
+    font-size: 16px;
+    color: rgb(82, 81, 81);
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+    color: #F1F0E8;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #F1F0E8; 
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    background-color: #497D74;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #F1F0E8; 
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    
+}
+
+.main-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+}
+
+.services {
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    font-size: 2em;
+    
+    
+}
+
+.service-item {
+    flex: 1; 
+    min-width: 200px;
+    height: 500px; 
+    text-align: center;
+    background-color: #F1F0E8;
+    padding: 30px;
+    border-radius: 10px;
+    
+
+}
+
+.service-item img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.team {
+    text-align: center;
+    padding: 10px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.about-item {
+    flex: 1; 
+    min-width: 200px; 
+    text-align: center;
+    padding: 0px;
+    height: 300px;
+    text-align: left;
+    float: right;  
+}
+
+.about-item img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.about-item h3 {
+    margin-bottom: 2px;
+    margin-top: 30px;
+}
+
+.about-item h4 {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.footer-content {
+    display: flex;
+    background-color: #497D74;
+    color: #F1F0E8; 
+    padding: 30px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Center and stack items in the About section */
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-item {
+        max-width: 80%; /* Allow some space on the sides */
+        text-align: center;
+    }
+
+    .about-item h3, 
+    .about-item h4 {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .about-item p {
+        font-size: 1rem;
+        text-align: center;
+        min-height: auto;
+        line-height: 1.5;
+    }
+
+    /* Adjust the services container layout */
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .service-item img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        object-fit: cover;
+    }
+
+    /* Adjust navigation */
+    nav {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Adjust the banner */
+    .banner {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .header {
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Footer adjustments */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        position: static;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .banner {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .main-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .services-container, .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item, .about-item {
+        width: 90%;
+    }
+
+    .about-item img {
+        float: none;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+
